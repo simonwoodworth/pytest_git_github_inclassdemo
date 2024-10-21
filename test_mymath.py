@@ -16,3 +16,6 @@ def test_power():
     assert power(3, 2) == 9
     assert power(2, 3) == 8
     assert power(4, 4) == 256
+
+def test_mod():
+    assert mod(7, 4) == 3
